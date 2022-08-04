@@ -1,0 +1,40 @@
+.button-sell-main {
+    height: 100vh;
+    padding-bottom: 30px;
+    background-color: none;
+    position: fixed;  
+    top: 90vh;
+    left: 50%;
+    -ms-transform: translate(-10%, -10%);
+    transform: translate(-50%, -0%);
+
+}
+
+.button-sell-content {
+  transition: 400ms;
+  background-color: #43c4f7;
+  max-width: fit-content;
+  padding: 4px 4px;
+  border-radius: 32px;
+  color: #ffffff;
+  font-size: 0px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 1px 1px 8px 2px #0000003c;
+}
+
+.button-sell-text {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.button-sell-content:hover {
+  padding: 4px 12px;
+  font-size: 20px;
+}
+
+@media (max-width: 426px) {
+  .button-sell-main {
+    
+  }
+}

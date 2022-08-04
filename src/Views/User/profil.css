@@ -1,0 +1,74 @@
+
+.avatar {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 1px solid #676767;
+  object-fit: contain;
+}
+
+.profil-content {
+  height: 100%;
+  margin-top: 60px;
+  padding: 20px 0px;
+}
+
+.profil-right {
+  padding: 20px 120px !important;
+  border-left: 1px solid rgba(0, 0, 0, 0.339);
+}
+
+.costum-input-image {
+  margin-top: 20px;
+}
+
+.costum-input-image input[type="file"] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.profil-right p{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.button-input-profil {
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #43c4f7;
+  color: white;
+  border: none;
+  width: 20%;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.button-input-profil:hover{
+  background-color: #3dbaeb;
+}
+
+@media (max-width: 426px) {
+  .profil-right {
+    margin-top: 40px;
+    padding: 0px 24px;
+  }
+  .avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+
+  .profil-right {
+    padding: 0px 24px !important;
+    margin-top: 40px !important;
+  }
+
+  .profil-content {
+    margin-top: 20px;
+  }
+  
+  .button-input-profil {
+    width: 30%;
+  }
+}

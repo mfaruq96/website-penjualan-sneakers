@@ -1,0 +1,25 @@
+.imageButton p {
+  margin-bottom: 0px !important;
+}
+
+.logo-after {
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.nav-after-edit {
+  width: 400px !important;
+}
+
+.remove-icon .dropdown-toggle::after {
+  border-right: 0px !important;
+  border-bottom: 0 !important;
+  border-left: 0px !important;
+}
+
+@media (max-width: 426px) {
+  .imageButton p {
+    margin-bottom: 1rem !important;
+  }
+}

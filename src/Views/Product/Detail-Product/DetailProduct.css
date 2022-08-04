@@ -1,0 +1,35 @@
+.detail-product-main {
+    margin-top: 20px;
+}
+.detail-product-image {
+  max-width: 600px;
+  max-height: 436px;
+  border-radius: 12px;
+}
+
+.detail-product-description {
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 12px;
+  box-shadow: 0px 0px 6px #dbdbdb;
+  border-radius: 12px;
+  flex-grow: 1;
+}
+
+.load-detail-product {
+  height: 80vh;
+}
+
+.detail-product-description h5 {
+  font-weight: bolder;
+}
+
+@media (max-width: 426px) {
+  .detail-product-image {
+    max-width: 380px;
+    max-height: 236px;
+  }
+  .detail-product-description{
+    margin-bottom: 20px;
+  }
+}

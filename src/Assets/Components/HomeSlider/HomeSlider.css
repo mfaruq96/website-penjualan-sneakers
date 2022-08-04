@@ -1,0 +1,54 @@
+.caraouselHeader {
+  padding: 0px !important;
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+.carousel1 {
+  /* padding-left: 100px;
+    padding-right: 100px; */
+}
+.imgcarousel {
+  object-fit: cover;
+  position: relative;
+  top: -200px;
+}
+.carousel2 {
+  height: 500px;
+  width: 1000px;
+}
+
+.swiper {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: rgba(255, 255, 255, 0);
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: rgba(255, 255, 255, 0);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 426px) {
+  .swiper {
+    max-width: 440px;
+    height: 180px;
+  }
+}

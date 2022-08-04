@@ -1,0 +1,62 @@
+.buttonHome-1 {
+  margin-top: 30px;
+}
+
+.home-kategori{
+    border-top:1px solid rgba(0, 0, 0, 0.339);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.339);;
+    padding: 12px 0px;
+    margin-bottom: 12px;
+}
+
+.home-kategori-button-grup{
+   
+
+}
+
+.button-kategori {
+  background-color: white;
+  color: #43c4f7;
+  border: solid 2px #43c4f7;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button-kategori:hover {
+  font-weight: bolder;
+  background-color: #43c4f7;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.icon-button1 {
+  margin-right: 10px;
+}
+.text-kategoriHeader {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.text-kategori {
+  font-weight: bold;
+  font-size: x-large;
+}
+.cardHome {
+  margin-top: 50px;
+}
+.footerHome {
+  margin-top: 500px;
+}
+.home-kategori h5 {
+  font-weight: bolder;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 426px) {
+  .button-kategori {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,109 @@
+.daftar-jual{
+    /* border: 3px solid red; */
+    height: 100vh;
+}
+.daftar-value{
+    /* border: 3px solid rgb(186, 129, 15); */
+}
+.h1-daftarJual{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.border-utama{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background: #ffff;
+    border-radius: 16px;
+    position: absolute;
+    /* border: 3px solid rgb(37, 17, 91); */
+    height: 80px;
+    width: 1250px;
+    box-shadow: 0px 0px 4px black;
+}
+.image-profile{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.profile-penjual{
+    margin-top: 10px;
+}
+.nama-penjual{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.button-edit{
+    margin-top: 20px;
+    margin-left: 950px;
+}
+.border-left-card-utama{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid rgb(156, 184, 57); */
+}
+.border-left-card{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid rgb(43, 226, 67); */
+}
+.border-left{
+    /* border: 3px solid blueviolet; */
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 4px black;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+.title-kategori{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.semua-produk{
+    display: flex;
+    flex-direction: row;
+}
+.diminati{
+    display: flex;
+    flex-direction: row;
+}
+.terjual{
+    display: flex;
+    flex-direction: row;
+}
+.img-semua-produk{
+    margin-right: 10px;
+}
+.img-diminati{
+    margin-right: 10px;
+}
+.img-terjual{
+    margin-right: 10px;
+}
+.text-border-left{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.border-card{
+    margin-left: 50px;
+    /* border: 3px solid greenyellow; */
+    width: 700px;
+    height: 800px;
+}
+.button-tambahProduk{
+    margin-top: 50px;
+}
+
+.daerah {
+    line-height: 0px;
+    font-size: 12px;
+    color: grey;
+}

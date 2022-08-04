@@ -1,0 +1,38 @@
+.card-detail-main {
+  border-radius: 12px;
+  box-shadow: 0px 0px 6px #dbdbdb;
+  padding: 12px;
+  max-width: 336px;
+}
+
+.card-detail-button {
+  border: none;
+  width: 100%;
+  height: 48px;
+  margin: 6px 0px;
+  border-radius: 8px;
+}
+
+.card-detail-product-name {
+  font-weight: bolder;
+}
+
+.card-detail-product-category {
+  color: darkgrey;
+  font-size: 16px;
+}
+
+@media (max-width: 426px) {
+  .card-detail-main {
+    max-width: 400px;
+  }
+
+  div#card-product-detail{
+    order: 2;
+  }
+  div#card-product-seller{
+    order: 1;
+    
+  }
+  
+}

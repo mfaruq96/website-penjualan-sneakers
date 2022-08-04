@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.no-radius {
+  border-radius: 0px !important;
+}
+
+.filled {
+  background-color: #43c4f7;
+  color: white;
+}
+
+.filled:hover {
+  background-color: #3dbaeb;
+}
+
+.not-filled {
+  background-color: white;
+  color: #43c4f7;
+  border: solid 2px #43c4f7 !important;
+}
+
+.not-filled:hover {
+  background-color: #3dbaeb;
+  color: white;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-family: "Poppins", sans-serif !important;
+}

@@ -1,0 +1,15 @@
+.notif-home-main {
+    padding: 0px 16px;
+    min-width: 300px;
+}
+
+.notif-home-main img{
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.notif-home-main p {
+    font-size: 12px;
+}

@@ -1,0 +1,59 @@
+.add-produk-main {
+    max-width: 600px !important;
+    margin-top: 40px;
+}
+
+.add-produk-button {
+    font-weight: bolder;
+    background-color: #43c4f7;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.add-produk-button:disabled {
+    background-color: #7d8182;
+}
+
+.add-produk-button:disabled:hover {
+    background-color: #7d8182;
+}
+
+.constum-input-image-produk input[type="file"]{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.preview-product {
+    max-width: 200px;
+    max-height: 200px;
+    border: 4px dashed #676767;
+    border-radius: 12px;
+    padding: 18px;
+    object-fit: contain;
+}
+
+#foto-input-produk {
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #43c4f7;
+    color: white;
+    border: none;
+    width: 20%;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.input-produk-note{
+    padding: 8px 0px;
+    font-size: 12px;
+}
+
+@media (max-width: 426px) { 
+    .add-produk-main {
+        margin-top: 40px;
+    }
+}
